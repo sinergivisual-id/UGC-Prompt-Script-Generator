@@ -114,7 +114,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
           </div>
 
           <a
-            href="https://wa.me/6281234567890?text=Halo%20Admin%20Sinergi%20Visual,%20saya%20ingin%20melakukan%20top%20up%20kuota%20kredit%20UGC%20Studio."
+            href="https://wa.me/628211282852?text=Halo%20Admin%20Sinergi%20Visual,%20saya%20ingin%20melakukan%20top%20up%20kuota%20kredit%20UGC%20Studio."
             target="_blank"
             rel="noopener noreferrer"
             className="px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition inline-flex items-center gap-1"

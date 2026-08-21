@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2.5 text-sm">
               <li>
                 <a 
-                  href="https://sinergivisual.com" 
+                  href="https://domainanda.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition"
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://instagram.com/sinergivisual" 
+                  href="https://instagram.com/sinergivisual.id" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-pink-600 dark:hover:text-pink-400 transition"
@@ -89,19 +89,19 @@ export const Footer: React.FC = () => {
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
                     <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
                   </svg>
-                  <span>Instagram @sinergivisual</span>
+                  <span>Instagram @sinergivisual.id</span>
                   <ArrowUpRight className="w-3 h-3 opacity-60" />
                 </a>
               </li>
               <li>
                 <a 
-                  href="https://tiktok.com/@sinergivisual" 
+                  href="https://tiktok.com/@sinergivisual.id" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition"
                 >
                   <Video className="w-4 h-4 text-slate-400" />
-                  <span>TikTok @sinergivisual</span>
+                  <span>TikTok @sinergivisual.id</span>
                   <ArrowUpRight className="w-3 h-3 opacity-60" />
                 </a>
               </li>
@@ -117,7 +117,7 @@ export const Footer: React.FC = () => {
               Butuh produksi video UGC berskala besar atau integrasi workflow AI kustom untuk brand Anda?
             </p>
             <a 
-              href="https://wa.me/6281234567890?text=Halo%20Sinergi%20Visual,%20saya%20tertarik%20dengan%20layanan%20produksi%20video%20UGC%20dan%20AI%20Prompt%20Studio."
+              href="https://wa.me/628211282852?text=Halo%20Sinergi%20Visual,%20saya%20tertarik%20dengan%20layanan%20produksi%20video%20UGC%20dan%20AI%20Prompt%20Studio."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-sm transition"

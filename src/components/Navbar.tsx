@@ -2,13 +2,13 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { 
-  Sparkles, 
-  Moon, 
-  Sun, 
-  History, 
-  Settings, 
-  Coins, 
+import {
+  Sparkles,
+  Moon,
+  Sun,
+  History,
+  Settings,
+  Coins,
   Layers,
   LogOut,
   User,
@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header className="sticky top-0 z-40 w-full backdrop-blur-md border-b transition-colors duration-200 bg-white/85 dark:bg-[#0F172A]/85 border-slate-200 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-18">
-          
+
           {/* Brand Logo & Badges - Dynamic Dark/Light Theme */}
           <div className="flex items-center space-x-3">
             <div className="flex items-center">
@@ -68,10 +68,10 @@ export const Navbar: React.FC<NavbarProps> = ({
                 className="h-8 sm:h-9 w-auto object-contain hidden dark:block"
               />
             </div>
-            
+
             <div className="flex items-center space-x-2">
               <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300 border border-blue-200 dark:border-blue-700/50">
-                UGC Studio Pro
+                Sinergi Visual
               </span>
               {profile?.role === 'admin' && (
                 <span className="hidden md:inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 dark:bg-amber-950/80 dark:text-amber-300 border border-amber-200 dark:border-amber-800">
@@ -83,7 +83,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           {/* Quick Action Links & Tools */}
           <div className="flex items-center space-x-1.5 sm:space-x-2.5">
-            
+
             {/* Template Presets Button */}
             <button
               onClick={onOpenPresets}
@@ -95,13 +95,12 @@ export const Navbar: React.FC<NavbarProps> = ({
             </button>
 
             {/* Real-time Token Credits Counter */}
-            <div 
+            <div
               onClick={onOpenSettings}
-              className={`cursor-pointer inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-bold transition border ${
-                credits > 0
-                  ? 'bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border-blue-200 dark:border-blue-800 hover:border-blue-400'
-                  : 'bg-rose-50 text-rose-700 dark:bg-rose-950/60 dark:text-rose-300 border-rose-200 dark:border-rose-800 hover:border-rose-400 animate-pulse'
-              }`}
+              className={`cursor-pointer inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-bold transition border ${credits > 0
+                ? 'bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border-blue-200 dark:border-blue-800 hover:border-blue-400'
+                : 'bg-rose-50 text-rose-700 dark:bg-rose-950/60 dark:text-rose-300 border-rose-200 dark:border-rose-800 hover:border-rose-400 animate-pulse'
+                }`}
               title="Klik untuk detail lisensi & kuota kredit"
             >
               <Coins className={`w-3.5 h-3.5 ${credits > 0 ? 'text-amber-500 dark:text-amber-400' : 'text-rose-500'}`} />
@@ -153,7 +152,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             <div className="flex items-center gap-1.5">
               {userEmail && (
-                <div 
+                <div
                   onClick={onOpenSettings}
                   className="hidden md:flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100/80 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-700/80 text-xs text-slate-700 dark:text-slate-300 cursor-pointer hover:bg-slate-200/80 dark:hover:bg-slate-800 transition"
                   title={`Akun: ${userEmail}`}

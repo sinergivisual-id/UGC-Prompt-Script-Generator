@@ -166,7 +166,7 @@ function LoginForm() {
             Belum punya akun? Hubungi Admin Sinergi Visual untuk pembelian lisensi.
           </p>
           <a
-            href="https://wa.me/6281234567890?text=Halo%20Admin%20Sinergi%20Visual,%20saya%20ingin%20membeli%20lisensi%20akses%20UGC%20Prompt%20Generator%20Studio."
+            href="https://wa.me/628211282852?text=Halo%20Admin%20Sinergi%20Visual,%20saya%20ingin%20membeli%20lisensi%20akses%20UGC%20Prompt%20Generator%20Studio."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-1.5 w-full py-2 px-3 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-sm transition"
